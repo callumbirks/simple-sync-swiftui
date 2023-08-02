@@ -27,6 +27,7 @@
 		EA737FC82A7AD7F800F81640 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FC72A7AD7F800F81640 /* DataController.swift */; };
 		EA737FCA2A7AD87000F81640 /* ColorDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FC92A7AD87000F81640 /* ColorDataController.swift */; };
 		EA737FCF2A7AF4EA00F81640 /* PhotoDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */; };
+		EA737FD12A7B019E00F81640 /* CountDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FD02A7B019E00F81640 /* CountDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +70,7 @@
 		EA737FC72A7AD7F800F81640 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		EA737FC92A7AD87000F81640 /* ColorDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataController.swift; sourceTree = "<group>"; };
 		EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataController.swift; sourceTree = "<group>"; };
+		EA737FD02A7B019E00F81640 /* CountDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				EA737FC72A7AD7F800F81640 /* DataController.swift */,
 				EA737FC92A7AD87000F81640 /* ColorDataController.swift */,
 				EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */,
+				EA737FD02A7B019E00F81640 /* CountDataController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				EA737FB32A7ABFA600F81640 /* PhotoView.swift in Sources */,
 				EA737FC82A7AD7F800F81640 /* DataController.swift in Sources */,
 				EA737FAF2A7ABD6600F81640 /* ColorView.swift in Sources */,
+				EA737FD12A7B019E00F81640 /* CountDataController.swift in Sources */,
 				EA737FB12A7ABD8400F81640 /* RootView.swift in Sources */,
 				EA737FB72A7ABFCA00F81640 /* SearchView.swift in Sources */,
 				EA737FCA2A7AD87000F81640 /* ColorDataController.swift in Sources */,

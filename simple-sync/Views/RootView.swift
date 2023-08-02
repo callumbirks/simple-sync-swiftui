@@ -10,6 +10,7 @@ import SwiftUI
 struct RootView: View {
     @StateObject var colorDataController = ColorDataController()!
     @StateObject var photoDataController = PhotoDataController()!
+    @StateObject var countDataController = CountDataController()!
     
     var body: some View {
         NavigationView {
@@ -22,7 +23,7 @@ struct RootView: View {
                     .tabItem {
                         Label("Photo", systemImage: "photo")
                     }
-                CountView()
+                CountView(countController: countDataController)
                     .tabItem {
                         Label("Count", systemImage: "123.rectangle")
                     }

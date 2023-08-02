@@ -41,4 +41,12 @@ class DataController {
                 }.store(in: &cancellables)
         }        
     }
+    
+    deinit {
+        // Stop the app.
+        app?.stop()
+        
+        // Remove the document change listener.
+        documentChangeListener?.remove()
+    }
 }
