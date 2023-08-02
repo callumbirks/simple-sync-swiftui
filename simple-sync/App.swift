@@ -8,7 +8,7 @@
 import os
 import Foundation
 import Network
-import UIKit
+import SwiftUI
 import CouchbaseLiteSwift
 import Combine
 

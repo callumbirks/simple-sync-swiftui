@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B00D636D29FD74FC00825DDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D636C29FD74FC00825DDB /* AppDelegate.swift */; };
-		B00D636F29FD74FC00825DDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D636E29FD74FC00825DDB /* SceneDelegate.swift */; };
-		B00D637429FD74FC00825DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00D637229FD74FC00825DDB /* Main.storyboard */; };
-		B00D637929FD74FF00825DDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00D637729FD74FF00825DDB /* LaunchScreen.storyboard */; };
 		B00D63A429FDEB0800825DDB /* ca_cert.der in Resources */ = {isa = PBXBuildFile; fileRef = B00D63A029FDEB0800825DDB /* ca_cert.der */; };
 		B00D63A929FDF7F600825DDB /* client_identity.p12 in Resources */ = {isa = PBXBuildFile; fileRef = B00D63A729FDF78200825DDB /* client_identity.p12 */; };
-		B022BC722A4D167600CA835A /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B022BC712A4D167600CA835A /* PhotoViewController.swift */; };
-		B022BC782A4E9C3900CA835A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B022BC772A4E9C3900CA835A /* ViewController.swift */; };
 		B022BC7D2A50B53C00CA835A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B022BC7C2A50B53C00CA835A /* Settings.swift */; };
 		B022BC7F2A50C10400CA835A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B022BC7E2A50C10400CA835A /* Settings.bundle */; };
 		B0712A1E2A57AC3E00F33C28 /* CouchbaseLiteSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0712A1D2A57AC3E00F33C28 /* CouchbaseLiteSwift.xcframework */; };
 		B0712A1F2A57AC3E00F33C28 /* CouchbaseLiteSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0712A1D2A57AC3E00F33C28 /* CouchbaseLiteSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B09F7A3A2A00A45400022B9E /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09F7A392A00A45400022B9E /* Credentials.swift */; };
 		B0B3A1FB2A58799D002BD6BC /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3A1FA2A58799C002BD6BC /* Actions.swift */; };
-		B0B3A1FD2A59C881002BD6BC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B3A1FC2A59C87F002BD6BC /* SearchViewController.swift */; };
-		B0CB05162A4BF82F001CD3A2 /* CountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CB05152A4BF82F001CD3A2 /* CountViewController.swift */; };
-		B0CB05182A4BF83F001CD3A2 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CB05172A4BF83F001CD3A2 /* ColorViewController.swift */; };
 		B0CB051A2A4BF8E4001CD3A2 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CB05192A4BF8E4001CD3A2 /* Counter.swift */; };
 		B0D4BAD12A5A0723001A1A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D4BAD02A5A0723001A1A42 /* Assets.xcassets */; };
 		B0F1C88B29FF89450022FC25 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1C88A29FF89450022FC25 /* App.swift */; };
+		EA737FAF2A7ABD6600F81640 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FAE2A7ABD6500F81640 /* ColorView.swift */; };
+		EA737FB12A7ABD8400F81640 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FB02A7ABD8400F81640 /* RootView.swift */; };
+		EA737FB32A7ABFA600F81640 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FB22A7ABFA600F81640 /* PhotoView.swift */; };
+		EA737FB52A7ABFC000F81640 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FB42A7ABFC000F81640 /* CountView.swift */; };
+		EA737FB72A7ABFCA00F81640 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FB62A7ABFCA00F81640 /* SearchView.swift */; };
+		EA737FBF2A7ACF7A00F81640 /* SyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FBE2A7ACF7A00F81640 /* SyncApp.swift */; };
+		EA737FC82A7AD7F800F81640 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FC72A7AD7F800F81640 /* DataController.swift */; };
+		EA737FCA2A7AD87000F81640 /* ColorDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FC92A7AD87000F81640 /* ColorDataController.swift */; };
+		EA737FCF2A7AF4EA00F81640 /* PhotoDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,15 +45,10 @@
 
 /* Begin PBXFileReference section */
 		B00D636929FD74FC00825DDB /* simple-sync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-sync.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B00D636C29FD74FC00825DDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B00D636E29FD74FC00825DDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B00D637329FD74FC00825DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B00D637829FD74FF00825DDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00D637A29FD74FF00825DDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B00D63A029FDEB0800825DDB /* ca_cert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = ca_cert.der; sourceTree = "<group>"; };
 		B00D63A729FDF78200825DDB /* client_identity.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = client_identity.p12; sourceTree = "<group>"; };
 		B022BC712A4D167600CA835A /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
-		B022BC772A4E9C3900CA835A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B022BC7C2A50B53C00CA835A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		B022BC7E2A50C10400CA835A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		B0712A1D2A57AC3E00F33C28 /* CouchbaseLiteSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CouchbaseLiteSwift.xcframework; path = "simple-sync/Frameworks/CouchbaseLiteSwift.xcframework"; sourceTree = "<group>"; };
@@ -65,6 +60,15 @@
 		B0CB05192A4BF8E4001CD3A2 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		B0D4BAD02A5A0723001A1A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0F1C88A29FF89450022FC25 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		EA737FAE2A7ABD6500F81640 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		EA737FB02A7ABD8400F81640 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		EA737FB22A7ABFA600F81640 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		EA737FB42A7ABFC000F81640 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
+		EA737FB62A7ABFCA00F81640 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EA737FBE2A7ACF7A00F81640 /* SyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncApp.swift; sourceTree = "<group>"; };
+		EA737FC72A7AD7F800F81640 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EA737FC92A7AD87000F81640 /* ColorDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataController.swift; sourceTree = "<group>"; };
+		EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		B00D636B29FD74FC00825DDB /* simple-sync */ = {
 			isa = PBXGroup;
 			children = (
+				EA737FC22A7AD29F00F81640 /* Model */,
+				EA737FAD2A7ABD5B00F81640 /* Views */,
 				B0CB05172A4BF83F001CD3A2 /* ColorViewController.swift */,
 				B022BC712A4D167600CA835A /* PhotoViewController.swift */,
 				B0CB05152A4BF82F001CD3A2 /* CountViewController.swift */,
@@ -106,16 +112,12 @@
 				B0CB05192A4BF8E4001CD3A2 /* Counter.swift */,
 				B0F1C88A29FF89450022FC25 /* App.swift */,
 				B00D638E29FDD6A400825DDB /* Credentials */,
-				B00D637229FD74FC00825DDB /* Main.storyboard */,
-				B00D637729FD74FF00825DDB /* LaunchScreen.storyboard */,
-				B00D636C29FD74FC00825DDB /* AppDelegate.swift */,
-				B00D636E29FD74FC00825DDB /* SceneDelegate.swift */,
-				B022BC772A4E9C3900CA835A /* ViewController.swift */,
 				B0B3A1FA2A58799C002BD6BC /* Actions.swift */,
 				B022BC7C2A50B53C00CA835A /* Settings.swift */,
 				B022BC7E2A50C10400CA835A /* Settings.bundle */,
 				B0D4BAD02A5A0723001A1A42 /* Assets.xcassets */,
 				B00D637A29FD74FF00825DDB /* Info.plist */,
+				EA737FBE2A7ACF7A00F81640 /* SyncApp.swift */,
 			);
 			path = "simple-sync";
 			sourceTree = "<group>";
@@ -136,6 +138,28 @@
 				B00D63A729FDF78200825DDB /* client_identity.p12 */,
 			);
 			path = Credentials;
+			sourceTree = "<group>";
+		};
+		EA737FAD2A7ABD5B00F81640 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA737FAE2A7ABD6500F81640 /* ColorView.swift */,
+				EA737FB02A7ABD8400F81640 /* RootView.swift */,
+				EA737FB22A7ABFA600F81640 /* PhotoView.swift */,
+				EA737FB42A7ABFC000F81640 /* CountView.swift */,
+				EA737FB62A7ABFCA00F81640 /* SearchView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA737FC22A7AD29F00F81640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA737FC72A7AD7F800F81640 /* DataController.swift */,
+				EA737FC92A7AD87000F81640 /* ColorDataController.swift */,
+				EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,12 +221,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00D637929FD74FF00825DDB /* LaunchScreen.storyboard in Resources */,
 				B00D63A429FDEB0800825DDB /* ca_cert.der in Resources */,
 				B00D63A929FDF7F600825DDB /* client_identity.p12 in Resources */,
 				B022BC7F2A50C10400CA835A /* Settings.bundle in Resources */,
 				B0D4BAD12A5A0723001A1A42 /* Assets.xcassets in Resources */,
-				B00D637429FD74FC00825DDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,38 +238,21 @@
 				B0CB051A2A4BF8E4001CD3A2 /* Counter.swift in Sources */,
 				B0F1C88B29FF89450022FC25 /* App.swift in Sources */,
 				B09F7A3A2A00A45400022B9E /* Credentials.swift in Sources */,
-				B0CB05162A4BF82F001CD3A2 /* CountViewController.swift in Sources */,
-				B022BC782A4E9C3900CA835A /* ViewController.swift in Sources */,
-				B00D636D29FD74FC00825DDB /* AppDelegate.swift in Sources */,
+				EA737FB32A7ABFA600F81640 /* PhotoView.swift in Sources */,
+				EA737FC82A7AD7F800F81640 /* DataController.swift in Sources */,
+				EA737FAF2A7ABD6600F81640 /* ColorView.swift in Sources */,
+				EA737FB12A7ABD8400F81640 /* RootView.swift in Sources */,
+				EA737FB72A7ABFCA00F81640 /* SearchView.swift in Sources */,
+				EA737FCA2A7AD87000F81640 /* ColorDataController.swift in Sources */,
 				B0B3A1FB2A58799D002BD6BC /* Actions.swift in Sources */,
-				B0B3A1FD2A59C881002BD6BC /* SearchViewController.swift in Sources */,
-				B0CB05182A4BF83F001CD3A2 /* ColorViewController.swift in Sources */,
-				B00D636F29FD74FC00825DDB /* SceneDelegate.swift in Sources */,
-				B022BC722A4D167600CA835A /* PhotoViewController.swift in Sources */,
+				EA737FCF2A7AF4EA00F81640 /* PhotoDataController.swift in Sources */,
+				EA737FBF2A7ACF7A00F81640 /* SyncApp.swift in Sources */,
+				EA737FB52A7ABFC000F81640 /* CountView.swift in Sources */,
 				B022BC7D2A50B53C00CA835A /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B00D637229FD74FC00825DDB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B00D637329FD74FC00825DDB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B00D637729FD74FF00825DDB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B00D637829FD74FF00825DDB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B00D637B29FD74FF00825DDB /* Debug */ = {
@@ -379,9 +384,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "simple-sync/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Sync;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We need to access your local network to find and connect to other devices for peer-to-peer sync.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = iamabug;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -416,9 +422,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "simple-sync/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Sync;
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We need to access your local network to find and connect to other devices for peer-to-peer sync.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = iamabug;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
