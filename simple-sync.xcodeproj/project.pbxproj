@@ -18,13 +18,14 @@
 		B0CB051A2A4BF8E4001CD3A2 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CB05192A4BF8E4001CD3A2 /* Counter.swift */; };
 		B0D4BAD12A5A0723001A1A42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D4BAD02A5A0723001A1A42 /* Assets.xcassets */; };
 		B0F1C88B29FF89450022FC25 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F1C88A29FF89450022FC25 /* App.swift */; };
+		EA442EB22ACEFFBF0028781E /* SearchDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA442EB12ACEFFBF0028781E /* SearchDataController.swift */; };
 		EA737FAF2A7ABD6600F81640 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FAE2A7ABD6500F81640 /* ColorView.swift */; };
 		EA737FB12A7ABD8400F81640 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FB02A7ABD8400F81640 /* RootView.swift */; };
 		EA737FB32A7ABFA600F81640 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FB22A7ABFA600F81640 /* PhotoView.swift */; };
 		EA737FB52A7ABFC000F81640 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FB42A7ABFC000F81640 /* CountView.swift */; };
 		EA737FB72A7ABFCA00F81640 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FB62A7ABFCA00F81640 /* SearchView.swift */; };
 		EA737FBF2A7ACF7A00F81640 /* SyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FBE2A7ACF7A00F81640 /* SyncApp.swift */; };
-		EA737FC82A7AD7F800F81640 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FC72A7AD7F800F81640 /* DataController.swift */; };
+		EA737FC82A7AD7F800F81640 /* SyncedDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FC72A7AD7F800F81640 /* SyncedDataController.swift */; };
 		EA737FCA2A7AD87000F81640 /* ColorDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FC92A7AD87000F81640 /* ColorDataController.swift */; };
 		EA737FCF2A7AF4EA00F81640 /* PhotoDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */; };
 		EA737FD12A7B019E00F81640 /* CountDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FD02A7B019E00F81640 /* CountDataController.swift */; };
@@ -61,13 +62,14 @@
 		B0CB05192A4BF8E4001CD3A2 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		B0D4BAD02A5A0723001A1A42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0F1C88A29FF89450022FC25 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		EA442EB12ACEFFBF0028781E /* SearchDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataController.swift; sourceTree = "<group>"; };
 		EA737FAE2A7ABD6500F81640 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		EA737FB02A7ABD8400F81640 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		EA737FB22A7ABFA600F81640 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 		EA737FB42A7ABFC000F81640 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 		EA737FB62A7ABFCA00F81640 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		EA737FBE2A7ACF7A00F81640 /* SyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncApp.swift; sourceTree = "<group>"; };
-		EA737FC72A7AD7F800F81640 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EA737FC72A7AD7F800F81640 /* SyncedDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncedDataController.swift; sourceTree = "<group>"; };
 		EA737FC92A7AD87000F81640 /* ColorDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataController.swift; sourceTree = "<group>"; };
 		EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataController.swift; sourceTree = "<group>"; };
 		EA737FD02A7B019E00F81640 /* CountDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDataController.swift; sourceTree = "<group>"; };
@@ -157,10 +159,11 @@
 		EA737FC22A7AD29F00F81640 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				EA737FC72A7AD7F800F81640 /* DataController.swift */,
+				EA737FC72A7AD7F800F81640 /* SyncedDataController.swift */,
 				EA737FC92A7AD87000F81640 /* ColorDataController.swift */,
 				EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */,
 				EA737FD02A7B019E00F81640 /* CountDataController.swift */,
+				EA442EB12ACEFFBF0028781E /* SearchDataController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -242,11 +245,12 @@
 				B0F1C88B29FF89450022FC25 /* App.swift in Sources */,
 				B09F7A3A2A00A45400022B9E /* Credentials.swift in Sources */,
 				EA737FB32A7ABFA600F81640 /* PhotoView.swift in Sources */,
-				EA737FC82A7AD7F800F81640 /* DataController.swift in Sources */,
+				EA737FC82A7AD7F800F81640 /* SyncedDataController.swift in Sources */,
 				EA737FAF2A7ABD6600F81640 /* ColorView.swift in Sources */,
 				EA737FD12A7B019E00F81640 /* CountDataController.swift in Sources */,
 				EA737FB12A7ABD8400F81640 /* RootView.swift in Sources */,
 				EA737FB72A7ABFCA00F81640 /* SearchView.swift in Sources */,
+				EA442EB22ACEFFBF0028781E /* SearchDataController.swift in Sources */,
 				EA737FCA2A7AD87000F81640 /* ColorDataController.swift in Sources */,
 				B0B3A1FB2A58799D002BD6BC /* Actions.swift in Sources */,
 				EA737FCF2A7AF4EA00F81640 /* PhotoDataController.swift in Sources */,
@@ -394,7 +398,7 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,7 +436,7 @@
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

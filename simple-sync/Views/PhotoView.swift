@@ -14,18 +14,23 @@ struct PhotoView: View {
     }
     
     var body: some View {
-        Button {
-            photoController.nextPhoto()
-        } label: {
-            if let image = image {
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFit()
-            } else {
-                Text("No image")
+        NavigationView {
+            Button {
+                photoController.nextPhoto()
+            } label: {
+                if let image = image {
+                    Image(uiImage: image)
+                        .resizable()
+                        .scaledToFit()
+                } else {
+                    Text("No image")
+                }
             }
+            .frame(maxWidth: 160.0, maxHeight: 160.0)
+            .navigationTitle("Sync")
+            .navigationBarBackButtonHidden(true)
+            .withInfoToolbar()
         }
-        .frame(maxWidth: 160.0, maxHeight: 160.0)
     }
 }
 

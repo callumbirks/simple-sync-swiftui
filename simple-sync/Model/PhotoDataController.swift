@@ -8,7 +8,7 @@
 import SwiftUI
 import CouchbaseLiteSwift
 
-class PhotoDataController : DataController, ObservableObject {
+class PhotoDataController : SyncedDataController, ObservableObject {
     private static let DB_NAME: String = "photo"
     private static let DOC_ID: String = "profile"
     private static let EMOJI_KEY: String = "emoji"

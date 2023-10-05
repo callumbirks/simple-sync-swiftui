@@ -10,7 +10,7 @@ import Foundation
 import SwiftUI
 import CouchbaseLiteSwift
 
-class CountDataController : DataController, ObservableObject {
+class CountDataController : SyncedDataController, ObservableObject {
     private static let DB_NAME: String = "count"
     private static let DOC_ID: String = "item"
     private static let COUNT_KEY: String = "count"

@@ -9,7 +9,7 @@ import Foundation
 import Combine
 import CouchbaseLiteSwift
 
-class DataController {
+class SyncedDataController {
     internal let database: CouchbaseLiteSwift.Database
     internal let collection: CouchbaseLiteSwift.Collection
     private var app: App!

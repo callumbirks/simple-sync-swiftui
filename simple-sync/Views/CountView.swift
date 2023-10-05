@@ -14,19 +14,24 @@ struct CountView: View {
     }
     
     var body: some View {
-        VStack {
-            Button {
-                countController.incrementCount()
-            } label: {
-                CountButtonLabel(symbolName: "plus")
+        NavigationView {
+            VStack {
+                Button {
+                    countController.incrementCount()
+                } label: {
+                    CountButtonLabel(symbolName: "plus")
+                }
+                Text(String(count))
+                    .font(.system(size: 120))
+                Button {
+                    countController.decrementCount()
+                } label: {
+                    CountButtonLabel(symbolName: "minus")
+                }
             }
-            Text(String(count))
-                .font(.system(size: 120))
-            Button {
-                countController.decrementCount()
-            } label: {
-                CountButtonLabel(symbolName: "minus")
-            }
+            .navigationTitle("Sync")
+            .navigationBarBackButtonHidden(true)
+            .withInfoToolbar()
         }
     }
 }

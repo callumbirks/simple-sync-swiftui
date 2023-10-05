@@ -8,7 +8,7 @@
 import SwiftUI
 import CouchbaseLiteSwift
 
-class ColorDataController : DataController, ObservableObject {
+class ColorDataController : SyncedDataController, ObservableObject {
     private static let DB_NAME: String = "color"
     private static let DOC_ID: String = "profile"
     private static let COLOR_KEY: String = "color"

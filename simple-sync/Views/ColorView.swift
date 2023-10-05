@@ -14,13 +14,18 @@ struct ColorView: View {
     }
     
     var body: some View {
-        Button {
-            colorController.nextColor()
-        } label: {
-            Circle()
-                .foregroundColor(color ?? .gray)
+        NavigationView {
+            Button {
+                colorController.nextColor()
+            } label: {
+                Circle()
+                    .foregroundColor(color ?? .gray)
+            }
+            .frame(maxWidth: 300, maxHeight: 300)
+            .navigationTitle("Sync")
+            .navigationBarBackButtonHidden(true)
+            .withInfoToolbar()
         }
-        .frame(maxWidth: 300, maxHeight: 300)
     }
 }
 
