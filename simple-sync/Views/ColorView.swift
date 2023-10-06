@@ -24,7 +24,7 @@ struct ColorView: View {
             .frame(maxWidth: 300, maxHeight: 300)
             .navigationTitle("Sync")
             .navigationBarBackButtonHidden(true)
-            .withInfoToolbar()
+            .withInfoToolbar(infoText: "Tap the screen, change the color, and sync with devices around you")
         }
     }
 }

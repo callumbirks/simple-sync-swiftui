@@ -29,7 +29,7 @@ struct PhotoView: View {
             .frame(maxWidth: 160.0, maxHeight: 160.0)
             .navigationTitle("Sync")
             .navigationBarBackButtonHidden(true)
-            .withInfoToolbar()
+            .withInfoToolbar(infoText: "Tap the screen, change the photo, and sync with devices around you")
         }
     }
 }

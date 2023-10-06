@@ -40,34 +40,3 @@ struct RootView_Previews: PreviewProvider {
         RootView()
     }
 }
-
-struct InfoToolbar: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .toolbar {
-                ToolbarItem(placement: .navigationBarLeading)
-                {
-                    Button {
-                    
-                    } label: {
-                        Image(systemName: "info.circle")
-                    }
-                }
-                
-                ToolbarItem(placement: .navigationBarTrailing)
-                {
-                    Button {
-                        
-                    } label: {
-                        Image(systemName: "square.and.arrow.up")
-                    }
-                }
-            }
-    }
-}
-
-extension View {
-    func withInfoToolbar() -> some View {
-        modifier(InfoToolbar())
-    }
-}

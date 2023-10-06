@@ -31,7 +31,7 @@ struct CountView: View {
             }
             .navigationTitle("Sync")
             .navigationBarBackButtonHidden(true)
-            .withInfoToolbar()
+            .withInfoToolbar(infoText: "Tap the buttons, change the count, and sync with devices around you")
         }
     }
 }

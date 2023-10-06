@@ -29,6 +29,7 @@
 		EA737FCA2A7AD87000F81640 /* ColorDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FC92A7AD87000F81640 /* ColorDataController.swift */; };
 		EA737FCF2A7AF4EA00F81640 /* PhotoDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */; };
 		EA737FD12A7B019E00F81640 /* CountDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA737FD02A7B019E00F81640 /* CountDataController.swift */; };
+		EAF1E0DF2AD00FE30034E8E5 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF1E0DE2AD00FE30034E8E5 /* Util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -73,6 +74,7 @@
 		EA737FC92A7AD87000F81640 /* ColorDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDataController.swift; sourceTree = "<group>"; };
 		EA737FCE2A7AF4EA00F81640 /* PhotoDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataController.swift; sourceTree = "<group>"; };
 		EA737FD02A7B019E00F81640 /* CountDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDataController.swift; sourceTree = "<group>"; };
+		EAF1E0DE2AD00FE30034E8E5 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				B0D4BAD02A5A0723001A1A42 /* Assets.xcassets */,
 				B00D637A29FD74FF00825DDB /* Info.plist */,
 				EA737FBE2A7ACF7A00F81640 /* SyncApp.swift */,
+				EAF1E0DE2AD00FE30034E8E5 /* Util.swift */,
 			);
 			path = "simple-sync";
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				EA737FB32A7ABFA600F81640 /* PhotoView.swift in Sources */,
 				EA737FC82A7AD7F800F81640 /* SyncedDataController.swift in Sources */,
 				EA737FAF2A7ABD6600F81640 /* ColorView.swift in Sources */,
+				EAF1E0DF2AD00FE30034E8E5 /* Util.swift in Sources */,
 				EA737FD12A7B019E00F81640 /* CountDataController.swift in Sources */,
 				EA737FB12A7ABD8400F81640 /* RootView.swift in Sources */,
 				EA737FB72A7ABFCA00F81640 /* SearchView.swift in Sources */,

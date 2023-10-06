@@ -12,9 +12,7 @@ struct SearchView: View {
     @State var searchText: String = ""
     @State var searchScope: SearchDataController.SearchScope = .all
     
-    let columns = [
-        GridItem(.adaptive(minimum: 144, maximum: 144))
-    ]
+    let columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
     
     var body: some View {
         NavigationView {
@@ -27,8 +25,10 @@ struct SearchView: View {
                                 .scaledToFit()
                             Text(searchResult.name)
                         }
+                        .padding()
                     }
                 }
+                .padding()
                 .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Tops, Bottoms, Shoes and More")
                 .searchScopes($searchScope, activation: .onSearchPresentation) {
                     ForEach(SearchDataController.SearchScope.allCases, id: \.self) { scope in
@@ -42,7 +42,7 @@ struct SearchView: View {
             }
             .navigationTitle("Search")
             .navigationBarBackButtonHidden(true)
-            .withInfoToolbar()
+            .withInfoToolbar(infoText: "Search using name, color, category and more")
         }
     }
     
